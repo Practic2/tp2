@@ -50,6 +50,10 @@ public abstract class Material {
         
         return genero;
     }
+    protected void setCodigo (int val){
+        
+        codigo = val;
+    }
     public void setCantidad (int val){
         
         cantidad = val;
