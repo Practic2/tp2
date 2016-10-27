@@ -75,5 +75,5 @@ public abstract class Material {
                 +titulo+"\n Anho: "+anho+"\n Genero: "+genero;
         return atributos;
     }
-    public abstract int verPrecio ();
+    public abstract int verPrecio (int dias);
 }
