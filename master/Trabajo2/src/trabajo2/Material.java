@@ -50,23 +50,19 @@ public abstract class Material {
         
         return genero;
     }
-    protected void setCodigo (int val){
-        
-        codigo = val;
-    }
-    public void setCantidad (int val){
+    public final void setCantidad (int val){
         
         cantidad = val;
     }
-    public void setTitulo (String val){
+    public final void setTitulo (String val){
         
         titulo = val;
     }
-    public void setAnho (int val){
+    public final void setAnho (int val){
         
         anho = val;
     }
-    public void setGenero (String val){
+    public final void setGenero (String val){
         
         genero = val;
     }
