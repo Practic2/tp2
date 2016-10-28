@@ -23,7 +23,7 @@ public class Estreno extends Material {
     public int verPrecio (int dias){
        return 10_000;
         }  
-    }
+    
     @Override
     public String toString (){
         String t;
