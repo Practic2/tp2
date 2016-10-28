@@ -21,12 +21,7 @@ public class Estreno extends Material {
 }
     @Override
     public int verPrecio (int dias){
-        if(dias<4){
-            return 10_000;
-        }
-        else{
-            int precio = 10_000;
-            return precio;
+       return 10_000;
         }  
     }
     @Override
