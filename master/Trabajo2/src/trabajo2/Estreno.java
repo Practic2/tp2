@@ -25,7 +25,7 @@ public class Estreno extends Material {
             return 10_000;
         }
         else{
-            int precio = 10_000 + (dias-3)*2000;
+            int precio = 10_000;
             return precio;
         }  
     }
