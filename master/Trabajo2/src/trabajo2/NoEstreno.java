@@ -29,14 +29,7 @@ public class NoEstreno extends Material {
     @Override
     public int verPrecio (int dias){
         
-        if (dias>3){
-            int retraso = dias-3;
-            return 8_000+retraso*1_500;
-        }
-        else{
-            return 8_000;
-        }
-    
+        return 8_000;
     }
     
 }
