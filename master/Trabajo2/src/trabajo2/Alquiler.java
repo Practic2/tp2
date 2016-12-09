@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package trabajo2;
-
+import java.util.Date
 /**
  *
  * @author Juanjo
@@ -13,13 +13,13 @@ public class Alquiler {
     
     private Cliente cliente;
     private Material material;
-    private Fecha fecha;
+    private Date fecha;
     private boolean devuelto;
     
     public Alquiler (){
         
     }
-    public Alquiler (Cliente cliente, Material material, Fecha fecha){
+    public Alquiler (Cliente cliente, Material material, Date fecha){
         this.cliente = cliente;
         this.material = material;
         this.fecha = fecha;
@@ -30,7 +30,7 @@ public class Alquiler {
     public Material getMaterial(){
         return material;
     }
-    public Fecha getFecha (){
+    public Date getDate (){
         return fecha;
     }
     public void setCliente (Cliente cliente){
@@ -39,7 +39,7 @@ public class Alquiler {
     public void setMaterial(Material material){
         this.material = material;
     }
-    public void setFecha (Fecha fecha){
+    public void setDate (Date fecha){
         this.fecha = fecha;
     }
     public boolean getDevuelto(){
@@ -54,7 +54,7 @@ public String toString(){
     String t;
     t = "Cliente: " + cliente + "\n";
     t = t + "Material: " + material + "\n";
-    t = t + "Fecha: " + fecha;
+    t = t + "Date: " + fecha;
     return t;
     
 }
